@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		924749E12905409400E135C2 /* NSString+MFExtended.m in Sources */ = {isa = PBXBuildFile; fileRef = 924749DF2905409400E135C2 /* NSString+MFExtended.m */; };
+		924749E42905410200E135C2 /* NSRegularExpression+MFExtended.m in Sources */ = {isa = PBXBuildFile; fileRef = 924749E32905410200E135C2 /* NSRegularExpression+MFExtended.m */; };
+		925301D318D56AD700D8ED63 /* SubtitleConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 925301D218D56AD700D8ED63 /* SubtitleConverter.m */; };
+		9281F47F18B8E67D00B4002B /* DragginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9281F47E18B8E67D00B4002B /* DragginView.m */; };
+		929DD24429056087007780DF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 929DD24329056087007780DF /* README.md */; };
+		92AB0E2D18B8D654000CAE9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92AB0E2B18B8D654000CAE9C /* InfoPlist.strings */; };
+		92AB0E2F18B8D654000CAE9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AB0E2E18B8D654000CAE9C /* main.m */; };
+		92AB0E3318B8D654000CAE9C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 92AB0E3118B8D654000CAE9C /* Credits.rtf */; };
+		92AB0E3618B8D654000CAE9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AB0E3518B8D654000CAE9C /* AppDelegate.m */; };
+		92AB0E3918B8D654000CAE9C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92AB0E3718B8D654000CAE9C /* MainMenu.xib */; };
+		92B95EDF18CB090900B348B1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AB0E2218B8D654000CAE9C /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		924749DF2905409400E135C2 /* NSString+MFExtended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MFExtended.m"; sourceTree = "<group>"; };
+		924749E02905409400E135C2 /* NSString+MFExtended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MFExtended.h"; sourceTree = "<group>"; };
+		924749E22905410200E135C2 /* NSRegularExpression+MFExtended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRegularExpression+MFExtended.h"; sourceTree = "<group>"; };
+		924749E32905410200E135C2 /* NSRegularExpression+MFExtended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSRegularExpression+MFExtended.m"; sourceTree = "<group>"; };
+		924D276118BA19E000CA6BB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Base; path = Base.lproj/Credits.rtf; sourceTree = "<group>"; };
+		924D276218BA19F500CA6BB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9252D77029056234006716A9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		925301D218D56AD700D8ED63 /* SubtitleConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubtitleConverter.m; sourceTree = "<group>"; };
+		925301D618D581AC00D8ED63 /* SubtitleConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubtitleConverter.h; sourceTree = "<group>"; };
+		9281F47D18B8E67D00B4002B /* DragginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragginView.h; sourceTree = "<group>"; };
+		9281F47E18B8E67D00B4002B /* DragginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragginView.m; sourceTree = "<group>"; };
+		929DD24329056087007780DF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		92A21A1F18D0B16A00E8B3A8 /* SubtitleConverter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SubtitleConverter.cpp; sourceTree = "<group>"; };
+		92A21A2018D0B16A00E8B3A8 /* SubtitleConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubtitleConverter.h; sourceTree = "<group>"; };
+		92A21A2418D37D1100E8B3A8 /* SubtitleConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SubtitleConverter.mm; sourceTree = "<group>"; };
+		92AB0E1F18B8D654000CAE9C /* SubtitleConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubtitleConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92AB0E2218B8D654000CAE9C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		92AB0E2A18B8D654000CAE9C /* SubtitleConverter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SubtitleConverter-Info.plist"; sourceTree = "<group>"; };
+		92AB0E2E18B8D654000CAE9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92AB0E3018B8D654000CAE9C /* SubtitleConverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SubtitleConverter-Prefix.pch"; sourceTree = "<group>"; };
+		92AB0E3418B8D654000CAE9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92AB0E3518B8D654000CAE9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92AB0E3818B8D654000CAE9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92AB0E1C18B8D654000CAE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B95EDF18CB090900B348B1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		925301D518D57F1100D8ED63 /* Experiment */ = {
+			isa = PBXGroup;
+			children = (
+				925301D618D581AC00D8ED63 /* SubtitleConverter.h */,
+				92A21A1F18D0B16A00E8B3A8 /* SubtitleConverter.cpp */,
+				92A21A2418D37D1100E8B3A8 /* SubtitleConverter.mm */,
+			);
+			path = Experiment;
+			sourceTree = "<group>";
+		};
+		92AB0E1618B8D654000CAE9C = {
+			isa = PBXGroup;
+			children = (
+				92AB0E2818B8D654000CAE9C /* SubtitleConverter */,
+				925301D518D57F1100D8ED63 /* Experiment */,
+				9252D77029056234006716A9 /* .gitignore */,
+				929DD24329056087007780DF /* README.md */,
+				92AB0E2118B8D654000CAE9C /* Frameworks */,
+				92AB0E2018B8D654000CAE9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92AB0E2018B8D654000CAE9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92AB0E1F18B8D654000CAE9C /* SubtitleConverter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92AB0E2118B8D654000CAE9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92AB0E2218B8D654000CAE9C /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92AB0E2818B8D654000CAE9C /* SubtitleConverter */ = {
+			isa = PBXGroup;
+			children = (
+				92AB0E3418B8D654000CAE9C /* AppDelegate.h */,
+				92AB0E3518B8D654000CAE9C /* AppDelegate.m */,
+				9281F47D18B8E67D00B4002B /* DragginView.h */,
+				9281F47E18B8E67D00B4002B /* DragginView.m */,
+				92A21A2018D0B16A00E8B3A8 /* SubtitleConverter.h */,
+				925301D218D56AD700D8ED63 /* SubtitleConverter.m */,
+				924749E22905410200E135C2 /* NSRegularExpression+MFExtended.h */,
+				924749E32905410200E135C2 /* NSRegularExpression+MFExtended.m */,
+				924749E02905409400E135C2 /* NSString+MFExtended.h */,
+				924749DF2905409400E135C2 /* NSString+MFExtended.m */,
+				92AB0E3718B8D654000CAE9C /* MainMenu.xib */,
+				92AB0E2918B8D654000CAE9C /* Supporting Files */,
+			);
+			path = SubtitleConverter;
+			sourceTree = "<group>";
+		};
+		92AB0E2918B8D654000CAE9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92AB0E2A18B8D654000CAE9C /* SubtitleConverter-Info.plist */,
+				92AB0E2B18B8D654000CAE9C /* InfoPlist.strings */,
+				92AB0E2E18B8D654000CAE9C /* main.m */,
+				92AB0E3018B8D654000CAE9C /* SubtitleConverter-Prefix.pch */,
+				92AB0E3118B8D654000CAE9C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92AB0E1E18B8D654000CAE9C /* SubtitleConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92AB0E5018B8D654000CAE9C /* Build configuration list for PBXNativeTarget "SubtitleConverter" */;
+			buildPhases = (
+				92AB0E1B18B8D654000CAE9C /* Sources */,
+				92AB0E1C18B8D654000CAE9C /* Frameworks */,
+				92AB0E1D18B8D654000CAE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SubtitleConverter;
+			productName = SubtitleConverter;
+			productReference = 92AB0E1F18B8D654000CAE9C /* SubtitleConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92AB0E1718B8D654000CAE9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1400;
+				ORGANIZATIONNAME = "Hyunmin Kang";
+			};
+			buildConfigurationList = 92AB0E1A18B8D654000CAE9C /* Build configuration list for PBXProject "SubtitleConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ko,
+			);
+			mainGroup = 92AB0E1618B8D654000CAE9C;
+			productRefGroup = 92AB0E2018B8D654000CAE9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92AB0E1E18B8D654000CAE9C /* SubtitleConverter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92AB0E1D18B8D654000CAE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92AB0E2D18B8D654000CAE9C /* InfoPlist.strings in Resources */,
+				92AB0E3318B8D654000CAE9C /* Credits.rtf in Resources */,
+				929DD24429056087007780DF /* README.md in Resources */,
+				92AB0E3918B8D654000CAE9C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92AB0E1B18B8D654000CAE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924749E42905410200E135C2 /* NSRegularExpression+MFExtended.m in Sources */,
+				92AB0E3618B8D654000CAE9C /* AppDelegate.m in Sources */,
+				92AB0E2F18B8D654000CAE9C /* main.m in Sources */,
+				924749E12905409400E135C2 /* NSString+MFExtended.m in Sources */,
+				925301D318D56AD700D8ED63 /* SubtitleConverter.m in Sources */,
+				9281F47F18B8E67D00B4002B /* DragginView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92AB0E2B18B8D654000CAE9C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				924D276218BA19F500CA6BB8 /* Base */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		92AB0E3118B8D654000CAE9C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				924D276118BA19E000CA6BB8 /* Base */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		92AB0E3718B8D654000CAE9C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92AB0E3818B8D654000CAE9C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92AB0E4E18B8D654000CAE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		92AB0E4F18B8D654000CAE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		92AB0E5118B8D654000CAE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SubtitleConverter/SubtitleConverter-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "SubtitleConverter/SubtitleConverter-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myhyuny.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		92AB0E5218B8D654000CAE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SubtitleConverter/SubtitleConverter-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "SubtitleConverter/SubtitleConverter-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myhyuny.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92AB0E1A18B8D654000CAE9C /* Build configuration list for PBXProject "SubtitleConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92AB0E4E18B8D654000CAE9C /* Debug */,
+				92AB0E4F18B8D654000CAE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92AB0E5018B8D654000CAE9C /* Build configuration list for PBXNativeTarget "SubtitleConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92AB0E5118B8D654000CAE9C /* Debug */,
+				92AB0E5218B8D654000CAE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92AB0E1718B8D654000CAE9C /* Project object */;
+}
