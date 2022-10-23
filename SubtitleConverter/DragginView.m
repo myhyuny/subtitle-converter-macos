@@ -12,24 +12,24 @@
 @implementation DragginView
 
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {
-	self = [super initWithCoder:aDecoder];
+    self = [super initWithCoder:aDecoder];
     if (self) {
-		[self registerForDraggedTypes:@[NSFilenamesPboardType]];
+        [self registerForDraggedTypes:@[NSFilenamesPboardType]];
     }
-	return self;
+    return self;
 }
 
 - (void)setDelegate:(id<DropViewDelegate>)delegate {
-	_delegate = delegate;
-	
-	[self registerForDraggedTypes:delegate ? @[NSFilenamesPboardType] : nil];
+    _delegate = delegate;
+    
+    [self registerForDraggedTypes:delegate ? @[NSFilenamesPboardType] : nil];
 }
 
 - (NSDragOperation)draggingEntered:(id<NSDraggingInfo>)sender {
     if ([_delegate respondsToSelector:@selector(draggingEntered:)]) {
         return [_delegate draggingEntered:sender];
     }
-	
+    
     return NSDragOperationNone;
 }
 
@@ -37,8 +37,8 @@
     if ([_delegate respondsToSelector:@selector(performDragOperation:)]) {
         return [_delegate performDragOperation:sender];
     }
-	
-	return NO;
+    
+    return NO;
 }
 
 @end

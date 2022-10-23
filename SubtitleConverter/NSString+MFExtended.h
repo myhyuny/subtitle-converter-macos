@@ -10,8 +10,8 @@
 
 
 enum : NSStringEncoding {
-	NSKoreanDOSStringEncoding = 2147484706,
-	NSKoreanEUCStringEncoding = 2147486016,
+    NSKoreanDOSStringEncoding = 2147484706,
+    NSKoreanEUCStringEncoding = 2147486016,
 };
 
 
